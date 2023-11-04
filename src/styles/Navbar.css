@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Joti+One&family=Michroma&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav-logo{
+    font-family: 'Michroma', sans-serif;
+    letter-spacing: 3px;
+}
+
+.nav-text{
+    font-family: 'Joti One', serif;
+    font-weight: 400;
+
+}
+.navbar {
+    display: flex;
+    background-color: black;
+    padding: 15px 20px;
+    color: white;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  
+  
+}
+
+.data-container {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.Logo {
+    width: 70px;
+}
+Link{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+}
+a {
+    text-decoration: none;
+    
+    padding: 10px 15px;
+    border-radius: 25px;
+    transition: background-color 0.3s ease-in;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.menu-data {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+a:hover {
+    background-color: white;
+    color: rgb(0, 12, 34);
+}
+
+.size-icon {
+    font-size: 26px;
+}
+
+#Menu-bar {
+    display: none;
+    margin-left: auto;
+}
+.Menu-bar {
+    display: none;
+    margin-left: auto;
+}
+
+#close {
+    display: none;
+}
+.close {
+    display: none;
+}
+
+@media (max-width:761px) {
+    .menu-data {
+        position: absolute;
+        flex-direction: column;
+        text-align: left;
+        align-items: flex-end;
+        left: 100%;
+        top: 0;
+        transform: translate(-100%);
+        background-color: black;
+        width: 250px;
+        padding: 20px;
+        transition: display ease-in 5s;
+        z-index: -10;
+    }
+
+    .Menu-bar {
+        display: block;
+    }
+
+    .close {
+        display: block;
+    }
+
+}

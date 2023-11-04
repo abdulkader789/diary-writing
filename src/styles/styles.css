@@ -1,0 +1,7 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Joti+One&family=Michroma&family=Roboto:wght@300;400&display=swap');
+body{
+    background-color: rgb(229 231 235);
+}
